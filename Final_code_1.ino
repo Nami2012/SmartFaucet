@@ -41,7 +41,7 @@ void loop() {
             }
        else
        {
-        digitalWrite(SV,HIGH);}
+        digitalWrite(SV,LOW);}
     
     else
     {
@@ -52,7 +52,5 @@ void loop() {
          
        }
             
-          }
-    }
-}
+ 
    
