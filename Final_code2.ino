@@ -61,7 +61,7 @@ pinMode(B,OUTPUT);
  
   // Start the server
   server.begin();
-  Serial.println("Server started");
+  
  
 }
  
