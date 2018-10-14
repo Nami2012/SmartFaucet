@@ -50,7 +50,17 @@ void loop() {
     }
  }
          
-       }
+       
             
+<<<<<<< HEAD
  
+||||||| merged common ancestors
+          }
+    }
+}
+=======
+          
+    
+
+>>>>>>> a6f50daf7328ddd524f5f8af997c5235da673e0e
    
