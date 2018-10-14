@@ -92,11 +92,11 @@ void loop() {
   
                  if (request.indexOf("/weight=300g") != -1)  {
     
-                      while((digitalRead(IR)==HIGH)&&(wv>300))
+                      while((digitalRead(IR)==HIGH)&&(weight>300))
                       digitalWrite(SV,HIGH);
                   }
                  if (request.indexOf("/weight=500g") != -1)  {
-                      while((digitalRead(IR)==HIGH)&&(wv>500))
+                      while((digitalRead(IR)==HIGH)&&(weight>500))
                       digitalWrite(SV,HIGH);
    
                   }
@@ -134,4 +134,3 @@ void loop() {
   Serial.println("Client disonnected");
   Serial.println("");
 } 
-
